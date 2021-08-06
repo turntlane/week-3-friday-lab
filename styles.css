@@ -1,0 +1,114 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+
+.buttons {
+	width: 150px;
+	height: 75px;
+	background-color: rgb(174, 174, 89);
+	border: rgb(174, 174, 89);
+	border-radius: 5%;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.66);
+}
+
+.buttons:hover {
+	cursor: pointer;
+	opacity: .7;
+}
+
+.random-button {
+	cursor: pointer;
+	margin-top: 10%;
+	width: 400px;
+	height: 100px;
+	background-color: crimson;
+	border: rgb(169, 73, 92);
+	border-radius: 2%;
+	font-size: 20px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.66);
+	text-align: center;
+}
+
+#random-p {
+	display: none;
+}
+
+.random-button:hover {
+	background-color: rgb(255, 28, 73);
+	opacity: .8;
+}
+
+#random-pick {
+	color: orange;
+	font-size: 28px;
+	text-decoration: underline;
+}
+
+.link-container {
+
+	display: flex;
+	flex-direction: column;
+
+
+}
+
+.park {
+	color: rgb(106, 106, 68);
+}
+
+.local:hover {
+	opacity: .6;
+}
+
+
+.about-text {
+	font-size: 20px;
+	text-align: left;
+}
+
+.checkboxes {
+	display: flex;
+	padding-top: 2%;
+}
+
+
+#contact div {
+
+	margin-top: 2%;
+}

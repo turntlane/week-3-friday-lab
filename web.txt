@@ -1,0 +1,13 @@
+How does the internet work?
+
+The internet is the infrastructure that makes up the Web. 
+The internet is the network that lets all computers on the web communicate.
+Any computer or hardware that is able to connect to a network can be part of the internet.
+
+
+
+What happens when you click on a link?
+
+When you click a link your browser is asking that URL to send its files and data.
+Your browser gets that URL and uses the DNS to get the IP of that URL to send the info.
+Once you have the IP of the URL your browser can start making requests to display files like HTML, CSS, Javascript, etc.
